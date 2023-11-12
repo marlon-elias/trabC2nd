@@ -60,7 +60,7 @@ int main() {
             int alunoEncontrado = 0;
             for (i = 0; i < alun; i++) {
                 if (strcmp(aluno[i], buscaAluno) == 0) {
-                    printf("Aluno encontrado! Nome: %s, Media: %.2f\n", aluno[i], media[i]);
+                    printf("Aluno encontrado! Nome: %s, Media: %.2f, Media Final: %.2f", aluno[i], media[i], mediaFinal[i]);
                     alunoEncontrado = 1;
                     break;
                 }
