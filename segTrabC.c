@@ -2,7 +2,7 @@
 #include <string.h>
 #include <locale.h>
 
-#define alun 4
+#define alun 25
 
 
 int main() {
